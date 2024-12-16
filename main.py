@@ -16,7 +16,7 @@ from aiogram.filters import Command
 
 import os
 from dotenv import load_dotenv
-
+load_dotenv()
 API_TOKEN = os.getenv("API_TOKEN")
 
 EMAIL_PATTERN = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
